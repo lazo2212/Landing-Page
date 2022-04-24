@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-family: "My Soul", cursive;
+  margin-top: 8px;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  min-height: 100px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .nav-bar ul {
+  display: flex;
+}
+header .nav-bar li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.video {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+}
+
+.choose h2 {
+  font-family: "My Soul", cursive;
+  margin: 0 10px 10px 10px;
+}
+
+.choose p {
+  margin: 0 10px;
+}
+
+.choose div {
+  width: 300px;
+  margin: 100px 20px;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.choose img {
+  width: 292px;
+  margin: 2px 2px 20px 2px;
+}
+
+@media (max-width: 600px) {
+  .choose {
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+}
+
+#header-img {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#form {
+  width: 500px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  #form {
+    padding: 140px 0 100px 0;
+  }
+}
+
+#center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#e-mail {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#submit {
+  background-color: #000;
+  color: #fff;
+}
+
+#submit:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+#btn {
+  width: 100px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: #000;
+  color: #fff;
+}
+
+#btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  margin-top: 100px;
+}
